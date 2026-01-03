@@ -1,0 +1,101 @@
+:root {
+   /* ----------------------------------------------------
+       Colors: Premium Travel Palette
+       ---------------------------------------------------- */
+
+   /* Primary Brand Colors */
+   --color-primary: #3B82F6;
+   /* Bright Blue */
+   --color-primary-dark: #2563EB;
+   --color-secondary: #06B6D4;
+   /* Cyan/Teal */
+   --color-accent: #F43F5E;
+   /* Rose/Pink Pop */
+
+   /* Gradients */
+   --gradient-primary: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+   /* Blue -> Purple */
+   --gradient-ocean: linear-gradient(135deg, #06B6D4 0%, #3B82F6 100%);
+   /* Teal -> Blue */
+   --gradient-sunset: linear-gradient(135deg, #F97316 0%, #EC4899 100%);
+   /* Orange -> Pink */
+   --gradient-dark: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+   /* Dark Mode Feel */
+
+   /* Surface & Backgrounds */
+   --bg-body: #F8FAFC;
+   /* Very light cool gray */
+   --bg-surface: #FFFFFF;
+   /* Pure White */
+   --bg-surface-alt: #F1F5F9;
+   --bg-glass: rgba(255, 255, 255, 0.7);
+
+   /* Text Colors */
+   --text-main: #1E293B;
+   /* Slate 800 */
+   --text-muted: #64748B;
+   /* Slate 500 */
+   --text-light: #94A3B8;
+   /* Slate 400 */
+   --text-white: #FFFFFF;
+
+   /* ----------------------------------------------------
+       Typography
+       ---------------------------------------------------- */
+   --font-heading: 'Outfit', sans-serif;
+   --font-body: 'Inter', sans-serif;
+
+   /* ----------------------------------------------------
+       Spacing & Shape
+       ---------------------------------------------------- */
+   --radius-sm: 8px;
+   --radius-md: 12px;
+   --radius-lg: 20px;
+   --radius-xl: 32px;
+   --radius-full: 9999px;
+
+   /* ----------------------------------------------------
+       Shadows & Effects
+       ---------------------------------------------------- */
+   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+   --shadow-float: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+   --blur-glass: 12px;
+
+   --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+   --transition-smooth: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="dark"] {
+   /* Surface & Backgrounds */
+   --bg-body: #0F172A;
+   /* Slate 900 */
+   --bg-surface: #1E293B;
+   /* Slate 800 */
+   --bg-surface-alt: #334155;
+   /* Slate 700 */
+   --bg-glass: rgba(15, 23, 42, 0.7);
+
+   /* Text Colors */
+   --text-main: #F1F5F9;
+   /* Slate 100 */
+   --text-muted: #94A3B8;
+   /* Slate 400 */
+   --text-light: #64748B;
+   /* Slate 500 */
+
+   /* Gradients */
+   --gradient-dark: linear-gradient(135deg, #F8FAFC 0%, #E2E8F0 100%);
+   /* Light text gradient logic inverted */
+
+   /* Shadows - adjusted for dark mode to be more subtle or light-based if needed, 
+       but standard shadows often disappear on dark backgrounds. 
+       We can make them darker or just rely on borders/contrast. 
+       For now, let's keep them deep black. */
+   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.3);
+   --shadow-float: 0 20px 25px -5px rgb(0 0 0 / 0.4), 0 8px 10px -6px rgb(0 0 0 / 0.3);
+}
