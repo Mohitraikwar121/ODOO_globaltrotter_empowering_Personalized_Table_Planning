@@ -29,13 +29,9 @@ Visual Render: budget.js listens for changes and updates the SVG progress bars a
 Clone the Repository
 
 Bash
-
-git clone https://github.com/your-username/globetrotter.git
-cd globetrotter
 Local Environment Since GlobeTrotter uses ES6 modules, it must be run via a local server:
 
 Bash
-
 # If using Python
 python -m http.server 8080
 
