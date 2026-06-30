@@ -1,5 +1,6 @@
 🌍 GlobeTrotter
-GlobeTrotter is a premium, high-fidelity travel management application. It bridges the gap between complex itinerary planning and real-time expense tracking, providing a seamless "all-in-one" experience for the modern traveler.
+GlobeTrotter is a premium, high-fidelity travel management application.
+It bridges the gap between complex itinerary planning and real-time expense tracking, providing a seamless "all-in-one" experience for the modern traveler.
 🚀 Key Modules
 💸 Financial Suite (budget.js)
 The newly implemented budget engine provides deep insights into travel spending:
