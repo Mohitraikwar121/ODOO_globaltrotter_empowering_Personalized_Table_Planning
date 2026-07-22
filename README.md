@@ -1,52 +1,53 @@
 🌍 GlobeTrotter
-GlobeTrotter is a premium, high-fidelity travel management application.
-It bridges the gap between complex itinerary planning and real-time expense tracking, providing a seamless "all-in-one" experience for the modern traveler.
-🚀 Key Modules
-💸 Financial Suite (budget.js)
-The newly implemented budget engine provides deep insights into travel spending:
-Real-time Analytics: Visualizes data using dynamic charts (Pie/Donut) to categorize expenses.
 
-Burn Rate Tracking: Monitoring tools to ensure "Total Spent" doesn't exceed the trip ceiling.
+> A premium, high-fidelity travel management suite.
+> GlobeTrotter bridges complex itinerary planning with real-time expense tracking, giving modern travelers an all-in-one command center for their journeys.
 
-Smart Categorization: Automatically groups costs into Flights, Lodging, Transit, and Dining.
-
-🛠️ State Management (store.js)
-The app utilizes a centralized state architecture to ensure data consistency across the Dashboard, Budget, and Settings views.
-
-Single Source of Truth: All trip data (T1, T2, etc.) is managed via a unified store.
-
-Reactive Updates: UI components automatically re-render when the budget state is modified.
+⚡ Quick Features
+💸 Financial Suite:** Dynamic budget tracking, smart expense categorization, and real-time burn rate analytics.
+🛠️ Centralized State Architecture:** Reactive, single-source-of-truth data flow across all views.
+📊 Visual Analytics:** High-fidelity progress tracking and dynamic Chart.js visualizations.
+🚀 Zero-Build Setup:** Built with modern ES6 modules—no heavy bundlers required to get started.
 
 🏗️ Architecture & Data Flow
-To understand how the budget module interacts with the core application, refer to the flow below:
+GlobeTrotter relies on a centralized store (`store.js`) to keep the Dashboard, Budget, and Settings views perfectly in sync.
 
-User Input: User adds an expense via the Budget UI.
+┌─────────────────┐       dispatch action      ┌──────────────────┐
+│   User Action   │ ─────────────────────────> │   store.js       │
+│  (Budget UI)    │                            │  (Central State) │
+└─────────────────┘                            └────────┬─────────┘
+                                                        │
+                                                        │ updates trip data (e.g. T1, T2)
+                                                        ▼
+┌─────────────────┐      re-renders SVGs &     ┌──────────────────┐
+│  UI Component   │ <───────────────────────── │   budget.js      │
+│  (Visuals/DOM)  │      Chart.js instances    │  (Analytics Engine)
+└─────────────────┘                            └──────────────────┘
 
-State Update: store.js processes the new entry and updates the trip object.
+🚀 Key Modules
 
-Visual Render: budget.js listens for changes and updates the SVG progress bars and Chart.js instances.
+💸 Financial Suite (`budget.js`)
 
-🛠️ Installation & Setup
-Clone the Repository
+Real-time Analytics: Visualizes spending habits using dynamic Pie and Donut charts.
+Burn Rate Tracking: Live safety buffers that notify you before exceeding your trip ceiling.
+Smart Categorization: Automatic grouping into standard travel buckets: `Flights`, `Lodging`, `Transit`, and `Dining`.
 
-Bash
-Local Environment Since GlobeTrotter uses ES6 modules, it must be run via a local server:
+### 🛠️ State Management (`store.js`)
+Single Source of Truth:** Centralized state tree managing trip metadata, active itineraries, and budget allocations.
+Reactive Updates:** Subscribed UI components re-render automatically whenever state mutations occur.
 
-Bash
-# If using Python
-python -m http.server 8080
+💻 Installation & Local Development
 
-# If using Node.js
-npx http-server .
-Access the App Navigate to http://localhost:8080 in your browser.
+1. Clone the repository
+2. Run a local server
+3. Open the app
+Navigate to `http://localhost:8080` in your web browser.
 
 📈 Roadmap
-[x] Phase 1: Core Itinerary Engine.
-
-[x] Phase 2: Premium Budget & Expenses Module.
-
-[x] Phase 3: User Settings & Profile Persistence.
-
-[ ] Phase 4: Multi-currency support with live API exchange rates.
-
-[ ] Phase 5: PDF Export for Expense Reports.
+| Status | Phase | Description |
+|    |   |       |
+| ✅ | Phase 1 | Core Itinerary Engine |
+| ✅ | Phase 2 | Premium Budget & Expenses Module |
+| ✅ | Phase 3 | User Settings & Profile Persistence |
+| 🚧 | Phase 4 | Multi-currency support with live exchange rate API |
+| 📋 | Phase 5 | PDF Export for Expense Reports & Receipts |
