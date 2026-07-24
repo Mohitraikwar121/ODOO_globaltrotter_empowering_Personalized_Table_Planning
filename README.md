@@ -51,3 +51,11 @@ Navigate to `http://localhost:8080` in your web browser.
 | ✅ | Phase 3 | User Settings & Profile Persistence |
 | 🚧 | Phase 4 | Multi-currency support with live exchange rate API |
 | 📋 | Phase 5 | PDF Export for Expense Reports & Receipts |
+
+Clone the repository
+
+Navigate to the project directory
+
+Install dependencies
+
+Start the development server
