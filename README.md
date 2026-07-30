@@ -24,7 +24,6 @@ GlobeTrotter relies on a centralized store (`store.js`) to keep the Dashboard, B
 │  (Visuals/DOM)  │      Chart.js instances    │  (Analytics Engine)
 └─────────────────┘                            └──────────────────┘
 
-
 🚀 Key Modules
 
 💸 Financial Suite (`budget.js`)
