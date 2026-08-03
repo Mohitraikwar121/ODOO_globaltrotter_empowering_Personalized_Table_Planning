@@ -27,7 +27,6 @@ GlobeTrotter relies on a centralized store (`store.js`) to keep the Dashboard, B
 🚀 Key Modules
 
 💸 Financial Suite (`budget.js`)
-
 Real-time Analytics: Visualizes spending habits using dynamic Pie and Donut charts.
 Burn Rate Tracking: Live safety buffers that notify you before exceeding your trip ceiling.
 Smart Categorization: Automatic grouping into standard travel buckets: `Flights`, `Lodging`, `Transit`, and `Dining`.
