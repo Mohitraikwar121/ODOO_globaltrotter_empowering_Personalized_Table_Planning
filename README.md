@@ -2,7 +2,6 @@
 
 > A premium, high-fidelity travel management suite.
 > GlobeTrotter bridges complex itinerary planning with real-time expense tracking, giving modern travelers an all-in-one command center for their journeys.
-
 ⚡ Quick Features
 💸 Financial Suite:** Dynamic budget tracking, smart expense categorization, and real-time burn rate analytics.
 🛠️ Centralized State Architecture:** Reactive, single-source-of-truth data flow across all views.
