@@ -1,16 +1,13 @@
 🌍 GlobeTrotter
 
 «A premium, high-fidelity travel management suite for modern travelers.»
-
 GlobeTrotter brings itinerary planning, budget management, expense tracking, and travel analytics together in one unified command center.
 
 Designed with a focus on clean architecture, reactive state management, and data-driven visualization, GlobeTrotter helps travelers understand not only where they're going, but also where their money is going.
 
-
 ✨ Why GlobeTrotter?
 
 Managing a trip often means switching between multiple applications for:
-
 - 🗺️ Itinerary planning
 - 💳 Expense tracking
 - 💰 Budget management
@@ -21,7 +18,6 @@ GlobeTrotter unifies these workflows into a single, cohesive experience.
 
 
 ⚡ Core Features
-
 🗺️ Smart Itinerary Management
 
 - Organize trips and destinations in one place
@@ -49,9 +45,7 @@ GlobeTrotter unifies these workflows into a single, cohesive experience.
 🛠️ Centralized State Architecture
 
 GlobeTrotter follows a single-source-of-truth architecture using a centralized "store.js".
-
 All major views consume synchronized application state, preventing inconsistent data between:
-
 "Dashboard → Budget → Settings → Itinerary"
 
 ⚡ Zero-Build Architecture
@@ -59,16 +53,13 @@ All major views consume synchronized application state, preventing inconsistent 
 Built using modern ES6 modules, GlobeTrotter can run without a heavy frontend build pipeline.
 
 This makes the project:
-
 - Lightweight
 - Easy to understand
 - Easy to deploy
 - Simple to develop locally
 - Suitable for static hosting
 
-
 🏗️ Architecture
-
 GlobeTrotter separates application state, business logic, and UI rendering to maintain a predictable data flow.
 
                          ┌──────────────────────┐
@@ -99,7 +90,6 @@ GlobeTrotter separates application state, business logic, and UI rendering to ma
                          └──────────────────────┘
 
 🔄 Data Flow
-
 1. User performs an action.
 2. The action is dispatched to "store.js".
 3. The centralized store updates the relevant trip data.
@@ -111,11 +101,9 @@ This approach keeps the application predictable, synchronized, and maintainable.
 
 
 📦 Key Modules
-
 💸 "budget.js"
 
 The financial analytics engine of GlobeTrotter.
-
 Responsibilities
 
 - Calculate budget utilization
@@ -138,9 +126,7 @@ Category| Examples
 
 
 🛠️ "store.js"
-
 The single source of truth for application data.
-
 The store manages:
 
 - Trip metadata
@@ -182,7 +168,6 @@ Total Budget
      └── Remaining
 
 Burn Rate
-
 The burn-rate system helps travelers identify when spending is increasing too quickly relative to their available trip budget.
 
 For example:
@@ -191,7 +176,6 @@ Budget:       ₹1,00,000
 Spent:        ₹72,000
 Remaining:    ₹28,000
 Utilization:  72%
-
 The interface can surface safety indicators before spending exceeds the planned ceiling.
 
 
@@ -208,7 +192,6 @@ GlobeTrotter follows a premium dashboard aesthetic focused on:
 
 The goal is to make complex travel and financial information quickly understandable at a glance.
 
-
 🧰 Technology Stack
 
 Technology| Purpose
@@ -219,8 +202,6 @@ ES6 Modules| Modular architecture
 Chart.js| Financial visualization
 Local Storage| Client-side persistence
 SVG / DOM| Dynamic UI rendering
-
----
 
 📁 Project Structure
 
@@ -251,22 +232,17 @@ GlobeTrotter/
 🚀 Installation & Local Development
 
 1. Clone the Repository
-
 git clone <repository-url>
 cd GlobeTrotter
 
 2. Start a Local Server
-
 Because GlobeTrotter uses ES6 modules, it should be served through a local HTTP server rather than opened directly using "file://".
 
 For example, with Python:
-
 python -m http.server 8080
-
 Or use the Live Server extension in VS Code.
 
 3. Open the Application
-
 Navigate to:
 http://localhost:8080
 
@@ -306,9 +282,7 @@ Status| Phase| Description
 
 
 🔮 Future Vision
-
 GlobeTrotter is designed to evolve from a travel dashboard into a complete personal travel operating system.
-
 Future capabilities could include:
 
 - 🌐 Multi-currency expense management
@@ -331,7 +305,6 @@ As cloud synchronization and external APIs are introduced, the architecture can 
 
 
 🧪 Development Principles
-
 GlobeTrotter emphasizes:
 
 - Single Source of Truth
@@ -347,30 +320,23 @@ GlobeTrotter emphasizes:
 📈 Project Highlights
 
 ⚡ Lightweight
-
 No large frontend framework or mandatory build pipeline.
 
 🧠 Architecture-focused
-
 Centralized state management keeps application data synchronized.
 
 📊 Data-driven
-
 Chart.js transforms raw expenses into meaningful financial insights.
 
 🎯 User-focused
-
 The interface prioritizes information that travelers need while making decisions.
 
 🚀 Extensible
-
 The modular architecture makes it easier to introduce APIs, authentication, cloud storage, and AI-powered features later.
 
 
 🤝 Contributing
-
 Contributions, suggestions, and improvements are welcome.
-
 1. Fork the repository
 2. Create a feature branch
 3. Implement your changes
@@ -382,7 +348,6 @@ Contributions, suggestions, and improvements are welcome.
 📄 License
 
 This project is currently available for educational and development purposes.
-
 Add your preferred open-source license here, such as MIT, if you intend to distribute the project under an open-source license.
 
 ⭐ Support the Project
@@ -397,7 +362,5 @@ If you find GlobeTrotter useful or interesting:
 <div align="center">🌍 GlobeTrotter
 
 Plan smarter. Spend smarter. Travel better.
-
 Your journey, organized in one place.
-
 </div>
