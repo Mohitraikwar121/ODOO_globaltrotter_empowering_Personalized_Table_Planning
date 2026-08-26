@@ -93,14 +93,14 @@ Built using modern ES6 modules, GlobeTrotter runs without a heavy frontend build
 GlobeTrotter separates application state, business logic, and UI rendering to maintain a predictable, one-directional data flow.
 
 
-                         ┌──────────────────────┐
+                         ┌───────────────────────┐
                          │      User Action      │
                          │   Budget / Settings   │
                          └──────────┬────────────┘
                                     │
                                     │ dispatch(action)
                                     ▼
-                         ┌──────────────────────┐
+                         ┌───────────────────────┐
                          │       store.js        │
                          │  Central State Store  │
                          └──────────┬────────────┘
@@ -115,10 +115,10 @@ GlobeTrotter separates application state, business logic, and UI rendering to ma
      └────────────────┘   └───────┬────────┘   └────────────────┘
                                    │
                                    ▼
-                         ┌──────────────────────┐
+                         ┌───────────────────────┐
                          │   Chart.js / DOM      │
                          │   Dynamic Rendering   │
-                         └──────────────────────┘
+                         └───────────────────────┘
 
 
 ## 🔄 Data Flow
