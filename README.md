@@ -15,7 +15,6 @@ GlobeTrotter brings itinerary planning, budget management, expense tracking, and
 
 </div>
 
----
 
 ## 📖 Table of Contents
 
@@ -39,7 +38,6 @@ GlobeTrotter brings itinerary planning, budget management, expense tracking, and
 - [License](#-license)
 - [Support](#-support-the-project)
 
----
 
 ## ✨ Why GlobeTrotter?
 
@@ -54,7 +52,6 @@ GlobeTrotter unifies these workflows into a single, cohesive experience — so y
 | 📉 No visibility into spending trends | 📊 Real-time visual analytics |
 | 🔀 Data drift between tools | 🛠️ Single source of truth via `store.js` |
 
----
 
 ## ⚡ Core Features
 
@@ -82,9 +79,9 @@ GlobeTrotter unifies these workflows into a single, cohesive experience — so y
 ### 🛠️ Centralized State Architecture
 GlobeTrotter follows a single-source-of-truth architecture using a centralized `store.js`. All major views consume synchronized application state, preventing inconsistent data between:
 
-```
+
 Dashboard → Budget → Settings → Itinerary
-```
+
 
 ### ⚡ Zero-Build Architecture
 Built using modern ES6 modules, GlobeTrotter runs without a heavy frontend build pipeline — making it lightweight, easy to understand, easy to deploy, simple to develop locally, and suitable for static hosting.
@@ -95,7 +92,7 @@ Built using modern ES6 modules, GlobeTrotter runs without a heavy frontend build
 
 GlobeTrotter separates application state, business logic, and UI rendering to maintain a predictable, one-directional data flow.
 
-```
+
                          ┌──────────────────────┐
                          │      User Action      │
                          │   Budget / Settings   │
@@ -122,9 +119,7 @@ GlobeTrotter separates application state, business logic, and UI rendering to ma
                          │   Chart.js / DOM      │
                          │   Dynamic Rendering   │
                          └──────────────────────┘
-```
 
----
 
 ## 🔄 Data Flow
 
@@ -137,7 +132,6 @@ GlobeTrotter separates application state, business logic, and UI rendering to ma
 
 This approach keeps the application predictable, synchronized, and maintainable — no manual state syncing between views.
 
----
 
 ## 📦 Key Modules
 
@@ -177,13 +171,12 @@ The store manages:
 
 Instead of individual components maintaining independent copies of data, everything flows through one predictable pipeline:
 
-```
+
 User Action → dispatch() → store.js → State Update → Subscribers → UI Re-render
-```
+
 
 This minimizes synchronization problems and makes application behavior easier to reason about.
 
----
 
 ## 📊 Financial Analytics
 
@@ -191,13 +184,13 @@ GlobeTrotter provides real-time visibility into travel spending.
 
 ### Budget Utilization
 
-```
+
 Total Budget
      │
      ├── Spent
      │
      └── Remaining
-```
+
 
 ### Burn Rate
 
@@ -214,7 +207,6 @@ The burn-rate system helps travelers identify when spending is increasing too qu
 
 The interface surfaces safety indicators before spending exceeds the planned ceiling.
 
----
 
 ## 🎨 Design Philosophy
 
@@ -229,7 +221,6 @@ GlobeTrotter follows a premium dashboard aesthetic focused on:
 
 The goal: make complex travel and financial information understandable at a glance.
 
----
 
 ## 🧰 Technology Stack
 
@@ -243,11 +234,9 @@ The goal: make complex travel and financial information understandable at a glan
 | Local Storage | Client-side persistence |
 | SVG / DOM | Dynamic UI rendering |
 
----
 
 ## 📁 Project Structure
 
-```
 GlobeTrotter/
 │
 ├── index.html
@@ -268,7 +257,7 @@ GlobeTrotter/
 │   └── icons/
 │
 └── README.md
-```
+
 
 > The exact structure may vary depending on the implementation.
 
@@ -278,18 +267,18 @@ GlobeTrotter/
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone <repository-url>
 cd GlobeTrotter
-```
+
 
 ### 2. Start a Local Server
 
 Because GlobeTrotter uses ES6 modules, it should be served through a local HTTP server rather than opened directly via `file://`.
 
-```bash
+
 python -m http.server 8080
-```
+
 
 Or use the **Live Server** extension in VS Code.
 
@@ -297,15 +286,11 @@ Or use the **Live Server** extension in VS Code.
 
 Navigate to:
 
-```
-http://localhost:8080
-```
 
----
+http://localhost:8080
 
 ## 💡 Example Workflow
 
-```
 Create Trip
     ↓
 Add Destinations
@@ -321,9 +306,7 @@ Analyze Spending
 Monitor Burn Rate
     ↓
 Adjust Travel Decisions
-```
 
----
 
 ## 🗺️ Roadmap
 
@@ -338,7 +321,6 @@ Adjust Travel Decisions
 | 📋 | Phase 7 | Cloud synchronization & multi-device support |
 | 📋 | Phase 8 | Collaborative trip planning |
 
----
 
 ## 🔮 Future Vision
 
@@ -355,7 +337,6 @@ GlobeTrotter is designed to evolve from a travel dashboard into a complete perso
 - 🔔 Budget threshold notifications
 - 🗺️ Intelligent destination planning
 
----
 
 ## 🔐 Data & Privacy
 
@@ -363,7 +344,6 @@ GlobeTrotter is designed with a **local-first approach**, allowing core trip and
 
 As cloud synchronization and external APIs are introduced, the architecture can be extended with authentication, secure APIs, and encrypted data storage.
 
----
 
 ## 🧪 Development Principles
 
@@ -378,7 +358,6 @@ GlobeTrotter emphasizes:
 - Progressive Enhancement
 - Maintainable Architecture
 
----
 
 ## 📈 Project Highlights
 
@@ -390,7 +369,6 @@ GlobeTrotter emphasizes:
 | 🎯 **User-focused** | The interface prioritizes information travelers need while making decisions |
 | 🚀 **Extensible** | Modular architecture makes it easy to add APIs, auth, cloud storage, and AI features later |
 
----
 
 ## 🤝 Contributing
 
@@ -403,7 +381,6 @@ Contributions, suggestions, and improvements are welcome!
 5. Commit your changes (`git commit -m 'Add your feature'`)
 6. Open a Pull Request
 
----
 
 ## 📄 License
 
@@ -411,7 +388,6 @@ This project is currently available for educational and development purposes.
 
 > Add your preferred open-source license here, such as MIT, if you intend to distribute the project under an open-source license.
 
----
 
 ## ⭐ Support the Project
 
