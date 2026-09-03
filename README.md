@@ -157,6 +157,8 @@ Expenses are grouped into standardized travel categories:
 | 🚕 Transit | Taxis, metro, buses |
 | 🍽️ Dining | Restaurants, cafés, food |
 
+
+
 ### 🛠️ `store.js` — The Single Source of Truth
 
 The store manages:
@@ -192,6 +194,7 @@ Total Budget
      └── Remaining
 
 
+
 ### Burn Rate
 
 The burn-rate system helps travelers identify when spending is increasing too quickly relative to their available trip budget.
@@ -220,6 +223,7 @@ GlobeTrotter follows a premium dashboard aesthetic focused on:
 - Consistent component behavior
 
 The goal: make complex travel and financial information understandable at a glance.
+
 
 
 ## 🧰 Technology Stack
@@ -261,7 +265,7 @@ GlobeTrotter/
 
 > The exact structure may vary depending on the implementation.
 
----
+
 
 ## 🚀 Installation & Local Development
 
@@ -270,6 +274,7 @@ GlobeTrotter/
 
 git clone <repository-url>
 cd GlobeTrotter
+
 
 
 ### 2. Start a Local Server
@@ -308,6 +313,7 @@ Monitor Burn Rate
 Adjust Travel Decisions
 
 
+
 ## 🗺️ Roadmap
 
 | Status | Phase | Description |
@@ -320,6 +326,7 @@ Adjust Travel Decisions
 | 📋 | Phase 6 | Advanced travel analytics & spending predictions |
 | 📋 | Phase 7 | Cloud synchronization & multi-device support |
 | 📋 | Phase 8 | Collaborative trip planning |
+
 
 
 ## 🔮 Future Vision
@@ -343,6 +350,7 @@ GlobeTrotter is designed to evolve from a travel dashboard into a complete perso
 GlobeTrotter is designed with a **local-first approach**, allowing core trip and expense information to remain on the user's device.
 
 As cloud synchronization and external APIs are introduced, the architecture can be extended with authentication, secure APIs, and encrypted data storage.
+
 
 
 ## 🧪 Development Principles
@@ -370,6 +378,7 @@ GlobeTrotter emphasizes:
 | 🚀 **Extensible** | Modular architecture makes it easy to add APIs, auth, cloud storage, and AI features later |
 
 
+
 ## 🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome!
@@ -380,6 +389,7 @@ Contributions, suggestions, and improvements are welcome!
 4. Test locally
 5. Commit your changes (`git commit -m 'Add your feature'`)
 6. Open a Pull Request
+
 
 
 ## 📄 License
@@ -396,6 +406,7 @@ If you find GlobeTrotter useful or interesting:
 ⭐ Star the repository · 🍴 Fork the project · 🐛 Report issues · 💡 Suggest improvements · 🤝 Contribute
 
 <div align="center">
+
 
 ### 🌍 GlobeTrotter
 
