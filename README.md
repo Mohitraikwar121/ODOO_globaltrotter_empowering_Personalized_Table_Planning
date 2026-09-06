@@ -86,8 +86,6 @@ Dashboard → Budget → Settings → Itinerary
 ### ⚡ Zero-Build Architecture
 Built using modern ES6 modules, GlobeTrotter runs without a heavy frontend build pipeline — making it lightweight, easy to understand, easy to deploy, simple to develop locally, and suitable for static hosting.
 
----
-
 ## 🏗️ Architecture
 
 GlobeTrotter separates application state, business logic, and UI rendering to maintain a predictable, one-directional data flow.
@@ -224,8 +222,6 @@ GlobeTrotter follows a premium dashboard aesthetic focused on:
 
 The goal: make complex travel and financial information understandable at a glance.
 
-
-
 ## 🧰 Technology Stack
 
 | Technology | Purpose |
@@ -290,8 +286,6 @@ Or use the **Live Server** extension in VS Code.
 ### 3. Open the Application
 
 Navigate to:
-
-
 http://localhost:8080
 
 ## 💡 Example Workflow
@@ -312,8 +306,6 @@ Monitor Burn Rate
     ↓
 Adjust Travel Decisions
 
-
-
 ## 🗺️ Roadmap
 
 | Status | Phase | Description |
@@ -326,8 +318,6 @@ Adjust Travel Decisions
 | 📋 | Phase 6 | Advanced travel analytics & spending predictions |
 | 📋 | Phase 7 | Cloud synchronization & multi-device support |
 | 📋 | Phase 8 | Collaborative trip planning |
-
-
 
 ## 🔮 Future Vision
 
@@ -350,8 +340,6 @@ GlobeTrotter is designed to evolve from a travel dashboard into a complete perso
 GlobeTrotter is designed with a **local-first approach**, allowing core trip and expense information to remain on the user's device.
 
 As cloud synchronization and external APIs are introduced, the architecture can be extended with authentication, secure APIs, and encrypted data storage.
-
-
 
 ## 🧪 Development Principles
 
@@ -377,8 +365,6 @@ GlobeTrotter emphasizes:
 | 🎯 **User-focused** | The interface prioritizes information travelers need while making decisions |
 | 🚀 **Extensible** | Modular architecture makes it easy to add APIs, auth, cloud storage, and AI features later |
 
-
-
 ## 🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome!
@@ -390,14 +376,11 @@ Contributions, suggestions, and improvements are welcome!
 5. Commit your changes (`git commit -m 'Add your feature'`)
 6. Open a Pull Request
 
-
-
 ## 📄 License
 
 This project is currently available for educational and development purposes.
 
 > Add your preferred open-source license here, such as MIT, if you intend to distribute the project under an open-source license.
-
 
 ## ⭐ Support the Project
 
@@ -406,7 +389,6 @@ If you find GlobeTrotter useful or interesting:
 ⭐ Star the repository · 🍴 Fork the project · 🐛 Report issues · 💡 Suggest improvements · 🤝 Contribute
 
 <div align="center">
-
 
 ### 🌍 GlobeTrotter
 
