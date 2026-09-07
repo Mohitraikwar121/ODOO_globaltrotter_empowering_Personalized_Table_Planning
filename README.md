@@ -15,9 +15,7 @@ GlobeTrotter brings itinerary planning, budget management, expense tracking, and
 
 </div>
 
-
 ## 📖 Table of Contents
-
 - [Why GlobeTrotter?](#-why-globetrotter)
 - [Core Features](#-core-features)
 - [Architecture](#️-architecture)
@@ -90,7 +88,6 @@ Built using modern ES6 modules, GlobeTrotter runs without a heavy frontend build
 
 GlobeTrotter separates application state, business logic, and UI rendering to maintain a predictable, one-directional data flow.
 
-
                          ┌───────────────────────┐
                          │      User Action      │
                          │   Budget / Settings   │
@@ -154,7 +151,6 @@ Expenses are grouped into standardized travel categories:
 | 🏨 Lodging | Hotels, hostels, stays |
 | 🚕 Transit | Taxis, metro, buses |
 | 🍽️ Dining | Restaurants, cafés, food |
-
 
 
 ### 🛠️ `store.js` — The Single Source of Truth
