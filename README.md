@@ -215,7 +215,6 @@ GlobeTrotter follows a premium dashboard aesthetic focused on:
 - Responsive interactions
 - Data-driven visualizations
 - Consistent component behavior
-
 The goal: make complex travel and financial information understandable at a glance.
 
 ## 🧰 Technology Stack
@@ -256,8 +255,6 @@ GlobeTrotter/
 
 
 > The exact structure may vary depending on the implementation.
-
-
 
 ## 🚀 Installation & Local Development
 
@@ -316,7 +313,6 @@ Adjust Travel Decisions
 | 📋 | Phase 8 | Collaborative trip planning |
 
 ## 🔮 Future Vision
-
 GlobeTrotter is designed to evolve from a travel dashboard into a complete personal travel operating system. Future capabilities could include:
 
 - 🌐 Multi-currency expense management
@@ -332,13 +328,11 @@ GlobeTrotter is designed to evolve from a travel dashboard into a complete perso
 
 
 ## 🔐 Data & Privacy
-
 GlobeTrotter is designed with a **local-first approach**, allowing core trip and expense information to remain on the user's device.
 
 As cloud synchronization and external APIs are introduced, the architecture can be extended with authentication, secure APIs, and encrypted data storage.
 
 ## 🧪 Development Principles
-
 GlobeTrotter emphasizes:
 
 - Single Source of Truth
@@ -375,11 +369,9 @@ Contributions, suggestions, and improvements are welcome!
 ## 📄 License
 
 This project is currently available for educational and development purposes.
-
 > Add your preferred open-source license here, such as MIT, if you intend to distribute the project under an open-source license.
 
 ## ⭐ Support the Project
-
 If you find GlobeTrotter useful or interesting:
 
 ⭐ Star the repository · 🍴 Fork the project · 🐛 Report issues · 💡 Suggest improvements · 🤝 Contribute
@@ -387,7 +379,6 @@ If you find GlobeTrotter useful or interesting:
 <div align="center">
 
 ### 🌍 GlobeTrotter
-
 *Plan smarter. Spend smarter. Travel better.*
 **Your journey, organized in one place.**
 
