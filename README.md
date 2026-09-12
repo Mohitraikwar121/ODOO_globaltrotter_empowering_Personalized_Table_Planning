@@ -9,6 +9,7 @@ GlobeTrotter brings itinerary planning, budget management, expense tracking, and
 [Features](#-core-features) • [Architecture](#️-architecture) • [Installation](#-installation--local-development) • [Roadmap](#️-roadmap) • [Contributing](#-contributing)
 </div>
 
+
 ## 📖 Table of Contents
 - [Why GlobeTrotter?](#-why-globetrotter)
 - [Core Features](#-core-features)
@@ -33,6 +34,7 @@ GlobeTrotter brings itinerary planning, budget management, expense tracking, and
 
 ## ✨ Why GlobeTrotter?
 Managing a trip often means switching between multiple apps for itinerary planning, expense tracking, budget management, spending analysis, and travel preferences.
+
 
 GlobeTrotter unifies these workflows into a single, cohesive experience — so you spend less time juggling tools and more time planning your trip.
 | Without GlobeTrotter | With GlobeTrotter |
@@ -134,7 +136,6 @@ Expenses are grouped into standardized travel categories:
 | 🚕 Transit | Taxis, metro, buses |
 | 🍽️ Dining | Restaurants, cafés, food |
 
-
 ### 🛠️ `store.js` — The Single Source of Truth
 The store manages:
 - Trip metadata
@@ -148,7 +149,6 @@ The store manages:
 Instead of individual components maintaining independent copies of data, everything flows through one predictable pipeline:
 User Action → dispatch() → store.js → State Update → Subscribers → UI Re-render
 This minimizes synchronization problems and makes application behavior easier to reason about.
-
 
 ## 📊 Financial Analytics
 GlobeTrotter provides real-time visibility into travel spending.
@@ -192,7 +192,6 @@ The goal: make complex travel and financial information understandable at a glan
 | Chart.js | Financial visualization |
 | Local Storage | Client-side persistence |
 | SVG / DOM | Dynamic UI rendering |
-
 
 ## 📁 Project Structure
 
