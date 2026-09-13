@@ -31,10 +31,8 @@ GlobeTrotter brings itinerary planning, budget management, expense tracking, and
 - [License](#-license)
 - [Support](#-support-the-project)
 
-
 ## ✨ Why GlobeTrotter?
 Managing a trip often means switching between multiple apps for itinerary planning, expense tracking, budget management, spending analysis, and travel preferences.
-
 
 GlobeTrotter unifies these workflows into a single, cohesive experience — so you spend less time juggling tools and more time planning your trip.
 | Without GlobeTrotter | With GlobeTrotter |
@@ -43,7 +41,6 @@ GlobeTrotter unifies these workflows into a single, cohesive experience — so y
 | 💸 Manual expense math | 💳 Automatic categorization & burn-rate tracking |
 | 📉 No visibility into spending trends | 📊 Real-time visual analytics |
 | 🔀 Data drift between tools | 🛠️ Single source of truth via `store.js` |
-
 
 ## ⚡ Core Features
 ### 🗺️ Smart Itinerary Management
@@ -76,8 +73,7 @@ Built using modern ES6 modules, GlobeTrotter runs without a heavy frontend build
 
 ## 🏗️ Architecture
 GlobeTrotter separates application state, business logic, and UI rendering to maintain a predictable, one-directional data flow.
-
-                         ┌───────────────────────┐
+                       ┌───────────────────────┐
                          │      User Action      │
                          │   Budget / Settings   │
                          └──────────┬────────────┘
@@ -104,7 +100,6 @@ GlobeTrotter separates application state, business logic, and UI rendering to ma
                         │   Dynamic Rendering   │
                         └───────────────────────┘
 
-
 ## 🔄 Data Flow
 1. **User performs an action** (e.g. adds an expense, edits a budget).
 2. **The action is dispatched** to `store.js`.
@@ -113,7 +108,6 @@ GlobeTrotter separates application state, business logic, and UI rendering to ma
 5. **UI components re-render** automatically.
 6. **Charts and analytics reflect** the latest data.
 This approach keeps the application predictable, synchronized, and maintainable — no manual state syncing between views.
-
 
 ## 📦 Key Modules
 ### 💸 `budget.js` — The Financial Analytics Engine
@@ -250,7 +244,6 @@ Monitor Burn Rate
 Adjust Travel Decisions
 
 ## 🗺️ Roadmap
-
 | Status | Phase | Description |
 |---|---|---|
 | ✅ | Phase 1 | Core Itinerary Engine |
