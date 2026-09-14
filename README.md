@@ -9,7 +9,6 @@ GlobeTrotter brings itinerary planning, budget management, expense tracking, and
 [Features](#-core-features) • [Architecture](#️-architecture) • [Installation](#-installation--local-development) • [Roadmap](#️-roadmap) • [Contributing](#-contributing)
 </div>
 
-
 ## 📖 Table of Contents
 - [Why GlobeTrotter?](#-why-globetrotter)
 - [Core Features](#-core-features)
@@ -153,6 +152,7 @@ Total Budget
      ├── Spent
      │
      └── Remaining
+
 
 ### Burn Rate
 The burn-rate system helps travelers identify when spending is increasing too quickly relative to their available trip budget.
