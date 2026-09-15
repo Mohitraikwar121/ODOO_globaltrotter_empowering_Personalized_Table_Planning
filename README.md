@@ -153,7 +153,6 @@ Total Budget
      │
      └── Remaining
 
-
 ### Burn Rate
 The burn-rate system helps travelers identify when spending is increasing too quickly relative to their available trip budget.
 **Example:**
@@ -308,7 +307,6 @@ This project is currently available for educational and development purposes.
 ## ⭐ Support the Project
 If you find GlobeTrotter useful or interesting:
 ⭐ Star the repository · 🍴 Fork the project · 🐛 Report issues · 💡 Suggest improvements · 🤝 Contribute
-
 <div align="center">
 
 ### 🌍 GlobeTrotter
