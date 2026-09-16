@@ -129,6 +129,7 @@ Expenses are grouped into standardized travel categories:
 | 🚕 Transit | Taxis, metro, buses |
 | 🍽️ Dining | Restaurants, cafés, food |
 
+
 ### 🛠️ `store.js` — The Single Source of Truth
 The store manages:
 - Trip metadata
