@@ -1,6 +1,6 @@
 <div align="center">
 # 🌍 GlobeTrotter
-**A premium, high-fidelity travel management suite for modern travelers.**
+**A premium, high-fidelity travel management suite for modern travelers.**  
 GlobeTrotter brings itinerary planning, budget management, expense tracking, and travel analytics together in one unified command center.
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
