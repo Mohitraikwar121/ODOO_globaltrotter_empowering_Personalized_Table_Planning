@@ -5,7 +5,7 @@
 
 A premium, high-fidelity **travel management suite** that brings itinerary planning, budget management, expense tracking, and travel analytics together in one unified command center.
 
-<p>
+<p> 
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
   <img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
