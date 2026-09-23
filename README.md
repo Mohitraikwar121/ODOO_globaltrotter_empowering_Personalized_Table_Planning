@@ -1,5 +1,5 @@
 <div align="center">
- 
+  
 # 🌍 GlobeTrotter
 ### **Plan smarter. Spend smarter. Travel better.**
 
