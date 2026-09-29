@@ -4,7 +4,7 @@
 ### **Plan smarter. Spend smarter. Travel better.**
 
 A premium, high-fidelity **travel management suite** that brings itinerary planning, budget management, expense tracking, and travel analytics together in one unified command center.
-
+   
 <p> 
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
