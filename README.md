@@ -1,8 +1,8 @@
 <div align="center">
-                                     
+                                      
 # 🌍 GlobeTrotter
 ### **Plan smarter. Spend smarter. Travel better.**
-
+  
 A premium, high-fidelity **travel management suite** that brings itinerary planning, budget management, expense tracking, and travel analytics together in one unified command center.
    
 <p> 
